@@ -88,7 +88,7 @@ export const specialityData = [
 export const doctors = [
     {
         _id: 'doc1',
-        name: 'Dr. Richard James',
+        name: 'Dr. Rudra Jain',
         image: doc1,
         speciality: 'General physician',
         degree: 'MBBS',
@@ -102,7 +102,7 @@ export const doctors = [
     },
     {
         _id: 'doc2',
-        name: 'Dr. Emily Larson',
+        name: 'Dr. Pradeep Lamba',
         image: doc2,
         speciality: 'Gynecologist',
         degree: 'MBBS',
@@ -116,7 +116,7 @@ export const doctors = [
     },
     {
         _id: 'doc3',
-        name: 'Dr. Sarah Patel',
+        name: 'Dr. Sarita Patel',
         image: doc3,
         speciality: 'Dermatologist',
         degree: 'MBBS',
@@ -130,7 +130,7 @@ export const doctors = [
     },
     {
         _id: 'doc4',
-        name: 'Dr. Christopher Lee',
+        name: 'Dr. Chaman Singh',
         image: doc4,
         speciality: 'Pediatricians',
         degree: 'MBBS',
@@ -144,7 +144,7 @@ export const doctors = [
     },
     {
         _id: 'doc5',
-        name: 'Dr. Jennifer Garcia',
+        name: 'Dr. Jayanti Garg',
         image: doc5,
         speciality: 'Neurologist',
         degree: 'MBBS',
@@ -158,7 +158,7 @@ export const doctors = [
     },
     {
         _id: 'doc6',
-        name: 'Dr. Andrew Williams',
+        name: 'Dr. Anjali Walia',
         image: doc6,
         speciality: 'Neurologist',
         degree: 'MBBS',
@@ -172,7 +172,7 @@ export const doctors = [
     },
     {
         _id: 'doc7',
-        name: 'Dr. Christopher Davis',
+        name: 'Dr. Chandan Das',
         image: doc7,
         speciality: 'General physician',
         degree: 'MBBS',
@@ -186,7 +186,7 @@ export const doctors = [
     },
     {
         _id: 'doc8',
-        name: 'Dr. Timothy White',
+        name: 'Dr. Taniya Negi',
         image: doc8,
         speciality: 'Gynecologist',
         degree: 'MBBS',
@@ -200,7 +200,7 @@ export const doctors = [
     },
     {
         _id: 'doc9',
-        name: 'Dr. Ava Mitchell',
+        name: 'Dr. Aman PpLO',
         image: doc9,
         speciality: 'Dermatologist',
         degree: 'MBBS',
@@ -214,7 +214,7 @@ export const doctors = [
     },
     {
         _id: 'doc10',
-        name: 'Dr. Jeffrey King',
+        name: 'Dr. Jayprakash kisan',
         image: doc10,
         speciality: 'Pediatricians',
         degree: 'MBBS',
@@ -228,7 +228,7 @@ export const doctors = [
     },
     {
         _id: 'doc11',
-        name: 'Dr. Zoe Kelly',
+        name: 'Dr. Zeenat Khan',
         image: doc11,
         speciality: 'Gastroenterologist',
         degree: 'MBBS',
@@ -242,7 +242,7 @@ export const doctors = [
     },
     {
         _id: 'doc12',
-        name: 'Dr. Patrick Harris',
+        name: 'Dr. Prateek Hegde',
         image: doc12,
         speciality: 'Neurologist',
         degree: 'MBBS',
@@ -256,7 +256,7 @@ export const doctors = [
     },
     {
         _id: 'doc13',
-        name: 'Dr. Chloe Evans',
+        name: 'Dr. Champaklal Apte',
         image: doc13,
         speciality: 'General physician',
         degree: 'MBBS',
@@ -270,7 +270,7 @@ export const doctors = [
     },
     {
         _id: 'doc14',
-        name: 'Dr. Ryan Martinez',
+        name: 'Dr. Riya Malhotra',
         image: doc14,
         speciality: 'Gynecologist',
         degree: 'MBBS',
@@ -284,7 +284,7 @@ export const doctors = [
     },
     {
         _id: 'doc15',
-        name: 'Dr. Amelia Hill',
+        name: 'Dr. Aanamika Haldar',
         image: doc15,
         speciality: 'Dermatologist',
         degree: 'MBBS',
