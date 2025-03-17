@@ -4,13 +4,13 @@ import { assets } from '../assets/assets'
 const MyProfile = () => {
 
   const [userData, setUserData] = useState({
-    name: "Pranjal Ary",
+    name: "Jagmohan Das",
     image: assets.profile_pic,
-    email: 'pranjal@gmail.com',
-    phone: '+91 95347344401',
+    email: 'das@gmail.com',
+    phone: '+91 9534736401',
     address: {
-      line1: "DIT University",
-      line2: "Salan Gaon, Dehradun"
+      line1: "Village- Dholakpur Post- Bheemnagar",
+      line2: "District - Harrappa (Purvanchal)"
     },
     gender: 'Male',
     dob: '20-06-2001'
