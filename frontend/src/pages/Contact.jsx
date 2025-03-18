@@ -15,8 +15,8 @@ const Contacts = () => {
 
          <div className='flex flex-col justify-center items-start gap-6 '>
           <p className='font-semibold text-lg text-gray-600'>OUR OFFICE</p>
-          <p className='text-gray-500'>54709 Willms Station <br />Suite 350, Washington, USA</p>
-          <p className='text-gray-500'>Tel: +91 0000000000 <br />Email: xyz@gmail.com</p>
+          <p className='text-gray-500'>Sector 16 <br />Alampur bagh , Greater Noida</p>
+          <p className='text-gray-500'>Tel: +91 - 5645956594 <br />Email: xyz@gmail.com</p>
           <p className='font-semibold text-lg text-gray-600'>CAREERS AT Dr.On Time</p>
           <p className='text-gray-500'>Learn more about our teams and job openings.</p>
           <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white teansition-all duration-500'>Explore Jobs</button>
