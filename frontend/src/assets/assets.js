@@ -93,11 +93,11 @@ export const doctors = [
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.",
-    fees: 50,
+      "Dr. Rudra Jain is a dedicated general physician with a strong focus on lifestyle-related illnesses, preventive healthcare, and early diagnosis. He believes in treating the root cause and empowering patients through health education.",
+    fees: 500,
     address: {
-      line1: "17th Cross, Richmond",
-      line2: "Circle, Ring Road, London",
+      line1: "Civil Lines",
+      line2: "Jaipur, Rajasthan",
     },
   },
   {
@@ -106,13 +106,13 @@ export const doctors = [
     image: doc2,
     speciality: "Gynecologist",
     degree: "MBBS",
-    experience: "3 Years",
+    experience: "8 Years",
     about:
-      "Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.",
-    fees: 60,
+      "Dr. Pradeep Lamba provides comprehensive gynecological care, including menstrual disorders, fertility treatments, pregnancy management, and menopause support. He combines clinical precision with empathetic counseling.",
+    fees: 700,
     address: {
-      line1: "27th Cross, Richmond",
-      line2: "Circle, Ring Road, London",
+      line1: "Sector 21",
+      line2: "Faridabad, Haryana",
     },
   },
   {
@@ -121,43 +121,44 @@ export const doctors = [
     image: doc3,
     speciality: "Dermatologist",
     degree: "MBBS",
-    experience: "1 Years",
+    experience: "1 Year",
     about:
-      "Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.",
-    fees: 30,
+      "Dr. Sarita Patel offers advanced skincare treatments, focusing on acne, pigmentation, hair loss, and cosmetic dermatology. She is passionate about helping patients feel confident in their skin.",
+    fees: 350,
     address: {
-      line1: "37th Cross, Richmond",
-      line2: "Circle, Ring Road, London",
+      line1: "MG Road",
+      line2: "Indore, Madhya Pradesh",
     },
   },
   {
     _id: "doc4",
-    name: "Dr. Chaman Singh",
+    name: "Dr. Chetak Singh",
     image: doc4,
     speciality: "Pediatricians",
     degree: "MBBS",
     experience: "2 Years",
     about:
-      "Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.",
-    fees: 40,
+      "Dr. Chetak Singh specializes in newborn and child healthcare. His expertise includes vaccinations, growth monitoring, and treating common pediatric infections with a child-friendly approach.",
+    fees: 600,
     address: {
-      line1: "47th Cross, Richmond",
-      line2: "Circle, Ring Road, London",
+      line1: "Vikas Nagar",
+      line2: "Lucknow, Uttar Pradesh",
     },
   },
-  {_id: 'doc5',
-    name: 'Dr. Jayanti Garg',
+  {
+    _id: "doc5",
+    name: "Dr. Jayanti Garg",
     image: doc5,
-    speciality: 'Neurologist',
-    degree: 'MBBS',
-    experience: '4 Years',
-    about: 'Dr. Jayanti Garg is deeply committed to delivering comprehensive neurological care, focusing on preventive healthcare, early diagnosis, and advanced treatment strategies. She prioritizes patient well-being through a personalized approach, integrating modern medical techniques with compassionate care to ensure optimal recovery and long-term health outcomes.',
+    speciality: "Neurologist",
+    degree: "MBBS",
+    experience: "4 Years",
+    about:
+      "Dr. Jayanti Garg has in-depth expertise in treating neurological conditions like migraines, epilepsy, stroke, and nerve disorders. She prioritizes a detailed diagnosis and long-term patient wellness.",
     fees: 700,
     address: {
-        line1: '57th Cross, MG Road',
-        line2: 'Sector 5, New Delhi, India'
-    }
-    
+      line1: "Sector 5",
+      line2: "New Delhi, India",
+    },
   },
   {
     _id: "doc6",
@@ -167,11 +168,11 @@ export const doctors = [
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.",
-    fees: 50,
+      "Dr. Anjali Walia offers neurological care with a compassionate and methodical approach. Her practice includes managing brain, spinal cord, and peripheral nerve disorders using evidence-based techniques.",
+    fees: 600,
     address: {
-      line1: "57th Cross, Richmond",
-      line2: "Circle, Ring Road, London",
+      line1: "Sector 7",
+      line2: "Chandigarh, Punjab",
     },
   },
   {
@@ -182,11 +183,11 @@ export const doctors = [
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.",
-    fees: 50,
+      "Dr. Chandan Das provides personalized care for chronic and seasonal illnesses, managing conditions like diabetes, hypertension, and infections with a preventive mindset.",
+    fees: 400,
     address: {
-      line1: "17th Cross, Richmond",
-      line2: "Circle, Ring Road, London",
+      line1: "Bistupur",
+      line2: "Jamshedpur, Jharkhand",
     },
   },
   {
@@ -197,11 +198,11 @@ export const doctors = [
     degree: "MBBS",
     experience: "3 Years",
     about:
-      "Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.",
-    fees: 60,
+      "Dr. Taniya Negi is known for her expertise in women’s reproductive health, handling pregnancy, PCOS, infertility, and hormonal imbalances with personalized treatment plans.",
+    fees: 450,
     address: {
-      line1: "27th Cross, Richmond",
-      line2: "Circle, Ring Road, London",
+      line1: "Laxmi Nagar",
+      line2: "Delhi, India",
     },
   },
   {
@@ -212,26 +213,26 @@ export const doctors = [
     degree: "MBBS",
     experience: "1 Years",
     about:
-      "Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.",
-    fees: 30,
+      "Dr. Aman PpLO specializes in clinical and aesthetic dermatology, offering treatments for chronic skin conditions and cosmetic concerns with a patient-first approach.",
+    fees: 300,
     address: {
-      line1: "37th Cross, Richmond",
-      line2: "Circle, Ring Road, London",
+      line1: "Baner Road",
+      line2: "Pune, Maharashtra",
     },
   },
   {
     _id: "doc10",
-    name: "Dr. Jayprakash kisan",
+    name: "Dr. Jayprakash Kisan",
     image: doc10,
     speciality: "Pediatricians",
     degree: "MBBS",
     experience: "2 Years",
     about:
-      "Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.",
-    fees: 40,
+      "Dr. Jayprakash Kisan has a warm and engaging approach to pediatric care, treating newborns to adolescents and guiding parents through every stage of child development.",
+    fees: 500,
     address: {
-      line1: "47th Cross, Richmond",
-      line2: "Circle, Ring Road, London",
+      line1: "Rajendra Nagar",
+      line2: "Patna, Bihar",
     },
   },
   {
@@ -242,11 +243,11 @@ export const doctors = [
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, and effective treatment strategies.",
-    fees: 50,
+      "Dr. Zeenat Khan treats a wide range of digestive issues, including acid reflux, IBS, ulcers, and liver conditions. She focuses on dietary planning and long-term digestive health.",
+    fees: 550,
     address: {
-      line1: "57th Cross, Richmond",
-      line2: "Circle, Ring Road, London",
+      line1: "Anna Nagar",
+      line2: "Chennai, Tamil Nadu",
     },
   },
   {
@@ -257,26 +258,26 @@ export const doctors = [
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.",
-    fees: 50,
+      "Dr. Prateek Hegde manages brain and nerve disorders with precision, treating conditions like seizures, Parkinson’s disease, and stroke-related complications.",
+    fees: 650,
     address: {
-      line1: "57th Cross, Richmond",
-      line2: "Circle, Ring Road, London",
+      line1: "JP Nagar",
+      line2: "Bangalore, Karnataka",
     },
   },
   {
     _id: "doc13",
-    name: "Dr. Champaklal Apte",
+    name: "Dr. Mahendra Apte",
     image: doc13,
     speciality: "General physician",
     degree: "MBBS",
     experience: "4 Years",
     about:
-      "Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.",
-    fees: 50,
+      "Dr. Mahendra Apte provides complete primary care for individuals and families, managing lifestyle diseases and promoting preventive health through regular check-ups.",
+    fees: 450,
     address: {
-      line1: "17th Cross, Richmond",
-      line2: "Circle, Ring Road, London",
+      line1: "Dadar West",
+      line2: "Mumbai, Maharashtra",
     },
   },
   {
@@ -287,11 +288,11 @@ export const doctors = [
     degree: "MBBS",
     experience: "3 Years",
     about:
-      "Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.",
-    fees: 60,
+      "Dr. Riya Malhotra offers expert care for women’s health issues including prenatal care, infertility, menstrual disorders, and menopausal support with a compassionate touch.",
+    fees: 500,
     address: {
-      line1: "27th Cross, Richmond",
-      line2: "Circle, Ring Road, London",
+      line1: "Salt Lake",
+      line2: "Kolkata, West Bengal",
     },
   },
   {
@@ -302,11 +303,12 @@ export const doctors = [
     degree: "MBBS",
     experience: "1 Years",
     about:
-      "Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.",
-    fees: 30,
+      "Dr. Anu Haldar is known for her work in treating skin, hair, and nail disorders. She combines clinical expertise with modern therapies to help patients achieve lasting results.",
+    fees: 350,
     address: {
-      line1: "37th Cross, Richmond",
-      line2: "Circle, Ring Road, London",
+      line1: "Bapu Nagar",
+      line2: "Ahmedabad, Gujarat",
     },
   },
 ];
+
