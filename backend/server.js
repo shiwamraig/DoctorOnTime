@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import connectDB from './config/mongodb.js';
 import connectCloudinary from './config/cloudinary.js';
 import adminRouter from './routes/adminRoute.js';
+import doctorRouter from './routes/doctorRoute.js';
 
 // app config
 const app = express(); // creates a new express server
@@ -20,7 +21,7 @@ app.use(cors()); // Allows cross-origin requests from the frontend to the backen
 
 // api endpoints
 app.use('/api/admin',adminRouter)
-//localhost:4000/api/admin
+// app.use('/api/doctor', doctorRouter) 
 
 
 

@@ -207,17 +207,17 @@ export const doctors = [
   },
   {
     _id: "doc9",
-    name: "Dr. Aman PpLO",
+    name: "Dr. Aman Yadav",
     image: doc9,
     speciality: "Dermatologist",
     degree: "MBBS",
     experience: "1 Years",
     about:
-      "Dr. Aman PpLO specializes in clinical and aesthetic dermatology, offering treatments for chronic skin conditions and cosmetic concerns with a patient-first approach.",
+      "Dr. Aman Yadav specializes in clinical and aesthetic dermatology, offering treatments for chronic skin conditions and cosmetic concerns with a patient-first approach.",
     fees: 300,
     address: {
-      line1: "Baner Road",
-      line2: "Pune, Maharashtra",
+      line1: "CRPF CAMP",
+      line2: "Durgapur, West Bengal",
     },
   },
   {
