@@ -4,37 +4,47 @@ import { useState,useContext } from 'react'
 import { AdminContext } from '../context/AdminContext.jsx'
 import axios from 'axios'
 import { toast } from 'react-toastify'
+import { DoctorContext } from '../context/DoctorContext.jsx'
 const Login = () => {
 
     const [state,setState] = useState('Admin')
     const [email,setEmail] = useState('')
     const [password,setPassword] = useState('')
     const{setAToken,backendUrl} = useContext(AdminContext)
+    const {setDToken} = useContext(DoctorContext)
 
     const onSubmitHandler = async (e) => {
-      e.preventDefault();
-      try {
-        let endpoint = '';
-        if (state === 'Admin') {
-          endpoint = 'api/admin/login';
-        } else {
-          endpoint = 'api/doctor/login';
-        }
-    
+    e.preventDefault();
+    try {
+      let endpoint = '';
+      if (state === 'Admin') {
+        endpoint = 'api/admin/login';
         const { data } = await axios.post(backendUrl + endpoint, { email, password });
-    
         if (data.success) {
           localStorage.setItem('aToken', data.token);
           setAToken(data.token);
           toast.success(`${state} login successful`);
         } else {
-          toast.error(data.message || 'Login failed'); // This is only hit if data.success is false
+          toast.error(data.message || 'Admin login failed');
         }
-      } catch (err) {
-        console.error(err.response?.data || err.message);
-        toast.error(err.response?.data?.message || 'Something went wrong'); // This will trigger if credentials are wrong and server returns 401 or similar
+      } else {
+        endpoint = 'api/doctor/login';
+        const { data } = await axios.post(backendUrl + endpoint, { email, password });
+        if (data.success) {
+          localStorage.setItem('dToken', data.token);
+          setDToken(data.token);
+          console.log(data.token);
+          
+          toast.success('Doctor login successful');
+        } else {
+          toast.error(data.message || 'Doctor login failed');
+        }
       }
-    };
+    } catch (err) {
+      console.error(err.response?.data || err.message);
+      toast.error(err.response?.data?.message || 'Something went wrong');
+    }
+  };
     
 
   return (

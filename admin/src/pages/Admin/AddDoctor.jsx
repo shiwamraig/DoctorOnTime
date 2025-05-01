@@ -107,7 +107,7 @@ const onSubmitHandler = async (event) => {
             </div>
             <div className="flex-1 flex flex-col gap-1">
               <p>Experience</p>
-              <select onChange={(e)=> setExperience(e.target.value )} value={experience} className="border rounded px-3 py-2 border-gray-200" name="" id="">
+              <select onChange={(e)=> setExperience(e.target.value )} value={experience} className="border rounded px-3 py-2 border-gray-200" name="experience" id="doctor-experience"> // ADDED UNIQUE ID
                 <option value="1 year">1 Year</option>
                 <option value="2 years">2 Years</option>
                 <option value="3 years">3 Years</option>
@@ -126,7 +126,7 @@ const onSubmitHandler = async (event) => {
           <div className="w-full lg:flex-1 flex flex-col gap-4">
             <div className="flex-1 flex flex-col gap-1">
               <p>Speciality</p>
-              <select onChange={(e)=> setSpeciality(e.target.value )} value={speciality} className="border rounded px-3 py-2 border-gray-200" name="" id="">
+              <select onChange={(e)=> setSpeciality(e.target.value )} value={speciality} className="border rounded px-3 py-2 border-gray-200" name="speciality" id="doctor-speciality"> // ADDED UNIQUE ID
                 <option value="General Physician">General Physician</option>
                 <option value="Gynecologist">Gynecologist</option>
                 <option value="Dermatologist">Dermatologist</option>
