@@ -51,7 +51,7 @@ const DoctorDashboard = () => {
               </div>
             </div>
 
-            // Latest Bookings Section - Now outside the flex container
+           
 
             <div className="bg-white mt-5">
                     <div className="flex items-center gap-2.5 px-4 py-4 rounded-t border-gray-200 border-b">

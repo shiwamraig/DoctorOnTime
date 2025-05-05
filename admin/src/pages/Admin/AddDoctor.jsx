@@ -153,7 +153,7 @@ const onSubmitHandler = async (event) => {
           <textarea onChange={(e)=> setAbout(e.target.value )} value={about} className="w-full px-4 pt-2 border rounded  border-gray-200" placeholder="write about doctor" rows={5} required />
         </div>
         
-        <button className="bg-[#5f6fff] px-10 py-3 mt-4 text-white rounded-full cursor-pointer">Add doctor</button>
+        <button className="bg-primary px-10 py-3 mt-4 text-white rounded-full cursor-pointer">Add doctor</button>
       </div>
     </form>
   );

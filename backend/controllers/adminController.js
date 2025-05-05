@@ -8,7 +8,6 @@ import userModel from "../models/userModel.js";
 
 
 // API for adding doctor
-
 const addDoctor = async (req, res) => {
   try {
     const {
@@ -114,7 +113,7 @@ const loginAdmin = async (req, res) => {
       email === process.env.ADMIN_EMAIL &&
       password === process.env.ADMIN_PASSWORD
     ) {
-      const token = jwt.sign(email + password, process.env.JWT_SECRET); //⚠️Joining email + password like this isn't safe — it's better to send them as an object
+      const token = jwt.sign(email + password, process.env.JWT_SECRET); 
       res.json({
         success: true,
         message: "Login success",
